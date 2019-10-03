@@ -1,0 +1,7 @@
+{
+    "user": [
+        {
+            "user": "Unexpected character ('u' (code 117)): was expecting double-quote to start field name\n at [Source: java.io.StringReader@5a3fe389; line: 4, column: 11] (through reference chain: hello.Users[\"userList\"])"
+        }
+    ]
+}

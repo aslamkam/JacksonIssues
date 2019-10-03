@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jboss-deployment-structure>
 	<deployment>
-		<exclude-subsystem>
+		<exclude-subsystems>
 			<subsystem name="jaxrs" />
 			<subsystem name="webservices" />
-		</exclude-subsystem>
+		</exclude-subsystems>
 	</deployment>
 </jboss-deployment-structure>
