@@ -1,1 +1,1 @@
-http://localhost:8080/Jackson/rest/customers/jsonMappingException
+http://localhost:8080/Jackson/rest/jsonMappingException

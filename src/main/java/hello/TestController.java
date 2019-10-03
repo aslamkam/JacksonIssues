@@ -19,9 +19,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
 @RestController
-@RequestMapping("/customers")
+@RequestMapping("/jsonMappingException")
 public class TestController {
-	@RequestMapping(method = RequestMethod.POST, value = "/jsonMappingException", consumes = MediaType.ALL_VALUE)
+	@RequestMapping(method = RequestMethod.POST, consumes = MediaType.ALL_VALUE)
 	@ResponseBody
 	public ResponseEntity<Users> greeting(@RequestBody(required=false) String payload) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
@@ -36,13 +36,13 @@ public class TestController {
 			httpStatus = HttpStatus.BAD_REQUEST;
 			users = new Users();
 			User x = new User();
-			x.user = e.getMessage();
+			x.name = e.getMessage();
 			users.addUser(x);
 		} catch(Exception e) {
 			httpStatus = HttpStatus.BAD_REQUEST;
 			users = new Users();
 			User x = new User();
-			x.user = e.getMessage();
+			x.name = e.getMessage();
 			users.addUser(x);
 		}
 		

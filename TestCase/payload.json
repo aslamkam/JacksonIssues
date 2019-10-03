@@ -1,10 +1,10 @@
 {
 	"userList" : {
 		{
-			user : "1"
+			name : "1"
 		},
 		{
-			"user" : "2"
+			"name" : "2"
 		}
 	}
 }

@@ -1,5 +1,5 @@
 package hello;
 
 public class User {
-	public String user = null;
+	public String name = null;
 }
