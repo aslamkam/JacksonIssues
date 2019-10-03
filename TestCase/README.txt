@@ -5,3 +5,4 @@ In Jackson version 2.2.3, the exception thrown accurately tells which line the s
 In Jackson version 2.9.8, the exception's location is behind one line of the actual location.
 
 This is shown in response-Jackson-223.json and response-Jackson-298.json
+where the line numbers are 4 and 3 respectively.
