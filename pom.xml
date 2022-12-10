@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<properties>
-		<springframework.version>4.0.5.RELEASE</springframework.version>
+		<springframework.version>6.0.0</springframework.version>
 		<jackson.library>2.2.3</jackson.library>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.source>1.8</maven.compiler.source>
